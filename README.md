@@ -1,2 +1,2 @@
 # Firstwebsite
-First website that I created only with html and css
+First website that I created using only html and css
