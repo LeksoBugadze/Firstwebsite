@@ -1,0 +1,96 @@
+#H1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: black;
+  padding-left: 15%;
+}
+
+.Username {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  margin: 10px;
+  background-color: transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 3px;
+  border-color: black;
+  width: 74%;
+}
+.Password {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  margin: 10px;
+  background-color: transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 3px;
+  border-color: black;
+  width: 75%;
+}
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+}
+
+#Logint {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 0%);
+  margin: 30px;
+  border-radius: 30px;
+  width: 70%;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login {
+  border-style: solid;
+  border-radius: 30px;
+  backdrop-filter: blur(50px);
+  background-attachment: fixed;
+  position: fixed;
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-color: transparent;
+}
+.icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+#Logint:hover {
+  background-color: hsl(0, 0%, 10%);
+}
+
+#Logint:active {
+  background-color: hsl(0, 0%, 30%);
+}
