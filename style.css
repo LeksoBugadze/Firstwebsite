@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 400px;
+  margin: 500px auto;
 }
 
 #Logint {
@@ -58,13 +58,11 @@ body {
   font-size: 30px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 0%);
-  margin: 30px;
   border-radius: 30px;
   width: 70%;
   border-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transform: translateY(-15px);
+  margin-left: 30px;
 }
 
 .Login {
@@ -74,13 +72,14 @@ body {
   background-attachment: fixed;
   position: fixed;
   width: 400px;
-  height: 450px;
+  height: 500px;
   margin: auto;
   padding-left: 30px;
   padding-bottom: 15px;
   padding-top: 15px;
   border-color: transparent;
 }
+
 .icon {
   position: absolute;
   width: 100px;
@@ -93,4 +92,39 @@ body {
 
 #Logint:active {
   background-color: hsl(0, 0%, 30%);
+}
+
+.forget-remember {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 7%;
+  margin-top: 180px;
+}
+input.forget-remember {
+  margin-left: -145px;
+  margin-top: 5px;
+  accent-color: black;
+}
+
+.forget {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  padding-left: 180px;
+}
+
+.Forget-remember {
+  transform: translateY(80%);
+  padding-right: 5px;
+}
+
+.Register {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  transform: translateY(95px);
+  padding-left: 40px;
 }

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,17 +14,28 @@
       <div class="Login">
         <header id="H1">Log-In</header>
         <br>
-        <label class="Username" for="Input">Username</label>
-         <input class="Username" type="Input"></input>
-        <span class="icon"><ion-icon size= "large" name="person-circle-outline"></ion-icon></span>
-        <br>
-        <label class="Password" for="Input">Password</label>
-         <input class="Password" type="password"><ion-icon size="large" name="lock-closed-outline"></ion-icon></input>
-        <span class="icon"></span>
-        <br>
+        <label class="Username"  for="Input" >Username</label>
+         <input class="Username" type="Input" required></input>
+         <span class="icon"><ion-icon size= "large" name="person-circle-outline"></ion-icon></span>
+         
+        <label class="Password"  for="Input" >Password</label>
+         <input class="Password" type="password" required><ion-icon size="large" name="lock-closed-outline"></ion-icon></input>
+         <span class="icon"></span>
+         
+         <div class="Forget-remember">
+          <label class="forget-remember" >Remember Me</label>
+          <input class="forget-remember" type="checkbox"></input>
+          <a class="forget" href="#">Forgot Password?</a>
+         </div>
+         <div class="Register">
+          <p>Don't have an account?
+          <a style=color:black; href="#">Register</a>
+         </p>
+         </div>
         <button id="Logint">LogIn</button>
       </div>
-    
+      
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
